@@ -3,7 +3,7 @@
   <br>
   <!-- <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a> -->
   <br>
-  Chart Double Y Bar with Line
+  Pie Chart
   <br>
 </h1>
 
@@ -11,11 +11,62 @@
 
 <!-- <h4 align="center">A minimal Markdown Editor desktop app built on top of <a target="_blank">Electron</a>.</h4> -->
 
-![screenshot](https://github.com/zainuddin-maker/Double-Y-Bar-With-Line-Chart-/blob/master/test.gif?raw=true)
+![Chat Preview](https://github.com/zainuddin-maker/Pie-Chart-/blob/master/test.PNG?raw=true)
+<!-- ![screenshot](https://github.com/zainuddin-maker/Double-Y-Bar-With-Line-Chart-/blob/master/test.gif?raw=true) -->
 
 
-This application is used to make chart double y bar with line , this chart generate from  data and the data from  thingworx platform .
+This application is used to  
+make a pie chart with the value (in percent) and also the legend of each element , this chart generate from  data and the data from  thingworx platform .
 
+## Example Data
+- Data Value
+
+        [
+            {
+                "id": 1,
+                "value": "2"
+            },
+            {
+                "id": 2,
+                "value": "5"
+            },
+            {
+                "id": 1,
+                "value": "2"
+            },
+            {
+                "id": 2,
+                "value": "9"
+            }
+        ]
+
+- Data Option
+
+        {
+            "color":  [
+                    {
+                        "id": 1,
+                        "value": "#00ff00"
+                    },
+                    {
+                        "id": 2,
+                        "value": "#ff00ff"
+                    }
+                ]
+            ,
+            "type": 
+                [
+                    {
+                        "id": 1,
+                        "value": "Example 1"
+                    },
+                    {
+                        "id": 2,
+                        "value": "Example 2"
+                    }
+                ]
+            
+        }
 
 ## Usage example
 
@@ -24,11 +75,11 @@ This application is used to make chart double y bar with line , this chart gener
 <td>
 
 
-after the data has been entered in the application, we can point the cursor to the points on the chart, to be able to see the name of the line and its value on the x-axis where the point is located 
 
+after the data is inputted into the chart, we can see what the data is, and the percentage value is automatically calculated, so enter the name and value values, then the application will immediately automatically calculate the data. we can also hover over the chart and then the data name and value in percent will appear
 
 Every pop up is automatic so it doesn't cross the limit of the given div container
-<!-- ![Chat Preview](https://github.com/zainuddin-maker/Export5pageCustomtoPDF/blob/master/iconexport.PNG?raw=true) -->
+
 
 </td>
 </tr>
